@@ -1,0 +1,167 @@
+<int, 1, 1, KEYWORD>
+<sum, 1, 5, IDENTIFIER>
+<(, 1, 8, LB>
+<int, 1, 9, KEYWORD>
+<a, 1, 13, IDENTIFIER>
+<,, 1, 14, SS>
+<int, 1, 16, KEYWORD>
+<b, 1, 20, IDENTIFIER>
+<), 1, 21, RB>
+<{, 2, 1, LC>
+<int, 3, 2, KEYWORD>
+<s, 3, 6, IDENTIFIER>
+<=, 3, 8, ASSIGNMENTOPERATOR>
+<a, 3, 10, IDENTIFIER>
+<+, 3, 12, ARITHMETICOPERATOR>
+<b, 3, 14, IDENTIFIER>
+<;, 3, 15, SS>
+<return, 4, 2, KEYWORD>
+<s, 4, 9, IDENTIFIER>
+<;, 4, 10, SS>
+<}, 5, 1, RC>
+<bool, 6, 1, IDENTIFIER>
+<search, 6, 6, IDENTIFIER>
+<(, 6, 12, LB>
+<int, 6, 13, KEYWORD>
+<rr, 6, 17, IDENTIFIER>
+<,, 6, 19, SS>
+<int, 6, 21, KEYWORD>
+<key, 6, 25, IDENTIFIER>
+<), 6, 28, RB>
+<{, 7, 1, LC>
+<int, 8, 2, KEYWORD>
+<i, 8, 6, IDENTIFIER>
+<;, 8, 7, SS>
+<for, 9, 2, KEYWORD>
+<(, 9, 5, LB>
+<i, 9, 6, IDENTIFIER>
+<=, 9, 8, ASSIGNMENTOPERATOR>
+<0, 9, 10, NUMBER>
+<;, 9, 11, SS>
+<i, 9, 13, IDENTIFIER>
+<<, 9, 15, RELATIONALOPERATOR>
+<10, 9, 17, NUMBER>
+<;, 9, 19, SS>
+<i, 9, 21, IDENTIFIER>
+<++, 9, 22, UNARYOPERATOR>
+<), 9, 24, RB>
+<{, 10, 2, LC>
+<if, 11, 2, KEYWORD>
+<(, 11, 4, LB>
+<arr, 11, 5, IDENTIFIER>
+<[, 11, 8, LS>
+<i, 11, 9, IDENTIFIER>
+<], 11, 10, RS>
+<++, 11, 12, RELATIONALOPERATOR>
+<key, 11, 15, IDENTIFIER>
+<), 11, 18, RB>
+<return, 11, 19, KEYWORD>
+<true, 11, 26, KEYWORD>
+<;, 11, 30, SS>
+<else, 12, 2, KEYWORD>
+<return, 12, 7, KEYWORD>
+<false, 12, 14, KEYWORD>
+<;, 12, 19, SS>
+<}, 13, 2, RC>
+<}, 14, 1, RC>
+<void, 15, 1, KEYWORD>
+<main, 15, 6, IDENTIFIER>
+<(, 15, 10, LB>
+<), 15, 11, RB>
+<{, 16, 1, LC>
+<int, 17, 2, KEYWORD>
+<a, 17, 6, IDENTIFIER>
+<[, 17, 7, LS>
+<20, 17, 8, NUMBER>
+<], 17, 10, RS>
+<,, 17, 11, SS>
+<i, 17, 13, IDENTIFIER>
+<,, 17, 14, SS>
+<res, 17, 16, IDENTIFIER>
+<;, 17, 19, SS>
+<bool, 18, 2, IDENTIFIER>
+<status, 18, 7, IDENTIFIER>
+<;, 18, 13, SS>
+<printf, 19, 2, KEYWORD>
+<(, 19, 8, LB>
+<"Enter array elements:", 19, 9, STRING LITERAL>
+<), 19, 30, RB>
+<;, 19, 31, SS>
+<for, 20, 2, KEYWORD>
+<(, 20, 5, LB>
+<i, 20, 6, IDENTIFIER>
+<=, 20, 8, ASSIGNMENTOPERATOR>
+<0, 20, 10, NUMBER>
+<;, 20, 11, SS>
+<i, 20, 13, IDENTIFIER>
+<<, 20, 15, RELATIONALOPERATOR>
+<10, 20, 17, NUMBER>
+<;, 20, 19, SS>
+<++, 20, 21, UNARYOPERATOR>
+<i, 20, 23, IDENTIFIER>
+<), 20, 24, RB>
+<scanf, 20, 25, KEYWORD>
+<(, 20, 30, LB>
+<"%d", 20, 31, STRING LITERAL>
+<,, 20, 33, SS>
+<a, 20, 36, IDENTIFIER>
+<[, 20, 37, LS>
+<i, 20, 38, IDENTIFIER>
+<], 20, 39, RS>
+<), 20, 40, RB>
+<;, 20, 41, SS>
+<res, 21, 2, IDENTIFIER>
+<=, 21, 6, ASSIGNMENTOPERATOR>
+<sum, 21, 8, IDENTIFIER>
+<(, 21, 11, LB>
+<a, 21, 12, IDENTIFIER>
+<[, 21, 13, LS>
+<0, 21, 14, NUMBER>
+<], 21, 15, RS>
+<,, 21, 16, SS>
+<a, 21, 18, IDENTIFIER>
+<[, 21, 19, LS>
+<4, 21, 20, NUMBER>
+<], 21, 21, RS>
+<), 21, 22, RB>
+<;, 21, 23, SS>
+<status, 22, 2, IDENTIFIER>
+<=, 22, 9, ASSIGNMENTOPERATOR>
+<search, 22, 11, IDENTIFIER>
+<(, 22, 17, LB>
+<a, 22, 18, IDENTIFIER>
+<,, 22, 19, SS>
+<res, 22, 21, IDENTIFIER>
+<), 22, 24, RB>
+<;, 22, 25, SS>
+<printf, 23, 2, KEYWORD>
+<(, 23, 8, LB>
+<"%d", 23, 9, STRING LITERAL>
+<,, 23, 11, SS>
+<status, 23, 13, IDENTIFIER>
+<), 23, 19, RB>
+<;, 23, 20, SS>
+<}, 24, 1, RC>
+1 sum int func -1
+2 a int id 4
+3 b int id 4
+4 s int id 4
+______________________________________________
+
+1 bool int id 4
+2 rr int id 4
+3 key int id 4
+4 i int id 4
+5 arr int id 0
+______________________________________________
+
+1 main void func -1
+2 a int id 80
+3 i int id 4
+4 res int id 4
+5 bool int id 4
+6 sum int func -1
+7 status int id 4
+8 search int func -1
+______________________________________________
+
